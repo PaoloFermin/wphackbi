@@ -1,0 +1,1318 @@
+/*=======================================================================================
+* Author        : Graph Theme
+* Template Name : Parsnal |Apps One Page HTML Template 
+* File          : Mani css files
+* Version       : 1.0
+*=============================================================================================*/
+/*========================================================================================
+  [Table of Contents]
+  --------------------------------------------------
+    1.  Initial/Common Css
+    2.  Header Manu
+    3.  Banner Area
+    4.  Awesome Feature
+    5.  Download Contant
+    6.  About This App
+    7.  How It Work
+    8.  Gellery
+    9.  Download Google Now
+    10.  Team Member
+    11. User Review
+    12. Pricing Table
+    13. Join Our Newspaper
+    14. Contact
+    15. Top To Bottom
+    16. Footer
+*==============================================================================================*/
+/*=======================================================================================
+                1  :-Initial/Common Css-:
+*=============================================================================================*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+ol, ul{
+  list-style: none; 
+}
+a, a:hover, a:focus {
+  text-decoration: none;
+  outline: 0; 
+}
+img{
+  border: 0px; 
+}
+.img_display{
+    display: inline-block;
+}
+/****some initial/common css part end ****/
+@font-face {
+  font-family: raleway_medium;
+  src: url(../fonts/raleway/Raleway-Medium.ttf); 
+}
+@font-face {
+  font-family: MyriadPro-reg;
+  src: url(../fonts/MyriadPro/MyriadPro-Regular.otf); 
+}
+@font-face {
+  font-family: Raleway-Bold;
+  src: url(../fonts/raleway/Raleway-Bold.ttf);
+}
+@font-face{
+  font-family: Rr;
+  src: url(../fonts/raleway/Raleway-Regular.ttf); 
+}
+@font-face{
+  font-family: MB;
+  src: url(../fonts/montserrat/Montserrat-Bold.otf); 
+}
+@font-face{
+  font-family: MR;
+  src: url(../fonts/montserrat/Montserrat-Regular.otf); 
+}
+@font-face{
+  font-family: Mon_light;
+  src: url(../fonts/montserrat/Montserrat-Light.otf); 
+}
+/****font part end****/
+body{
+    margin: 0 auto;
+}
+body p{
+    white-space: normal;
+    line-height: 30px;
+    text-indent: 0;
+}
+.container h2{
+    position: relative;
+    display: inline;
+    font-size: 45px;
+    color: #212121;
+    letter-spacing: 1px;
+    font-family: Raleway-Bold;
+    text-transform: uppercase;
+}
+/*=======================================================================================
+                2  :-Header Manu Part-:
+*=============================================================================================*/
+/*********header manu part start********/
+.header_manu .navbar-default{
+    background: transparent;
+}
+.navbar-header .navbar-brand{
+    margin: 22px -5px;
+}
+.navbar-default .navbar-nav > .active >a{
+    color: #bdbdbd;
+    background: none;
+}
+.header_manu .navbar{
+    border: none;
+}
+.navbar-default .navbar-nav > .active >a:focus{
+    background:none !important;
+}
+.navbar-default .navbar-nav > .active > a:hover{
+     background:none !important;
+}
+.navbar-nav .active{
+    margin-left: 0px;
+}
+.navbar-default .navbar-nav li a{
+    color: #fff;
+    line-height: 28px;
+    padding: 38px 21px;
+    font-family: MR;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #bdbdbd;
+}
+/*********custom_class for javasprit start*********/
+.navbar-custom .navbar-nav li a{
+    line-height: 18px;
+    transition: all linear 0.4s;
+}
+.navbar-custom .navbar-brand img{
+    margin: -12px -5px;
+    transition: all linear 0.4s;
+}
+.my_sticky{
+    background-color: #2f2f2f !important;   
+    
+}
+.current{
+	color: #bdbdbd !important;
+}
+/*=======================================================================================
+                3  :-Banner Area-:
+*=============================================================================================*/
+.banner_area{
+    background:url(../images/bacgroud.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.banner_area h5{
+    padding-top: 415px;
+    font-size: 23px;
+    font-family: Mon_light;
+    color: #f5f5f5;
+    letter-spacing: 2px;
+}
+.banner_area h1{
+    font-size: 50px;
+    font-family: Mon_light;
+    color: #f5f5f5;
+    letter-spacing: 2px;
+}
+.banner_area p{
+    font-size: 16px;
+    font-family: Mon_light;
+    color: #f5f5f5;
+    padding: 14px 0px 75px 0px;
+    line-height: 35px;
+}
+.banner_area ul li{
+    float: left;
+    margin-right: 30px;
+}
+.banner_area ul li a{
+    padding:  18px 40px;
+    border-radius: 28px;
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    -ms-border-radius: 28px;
+    -o-border-radius: 28px;
+    font-size: 16px;
+    font-family: MR;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.banner_area .activee{
+    background: #fff;
+	color: #402DE1;
+}
+.banner_area .activee:hover{
+    background: transparent;
+	color: #fff;
+}
+.banner_area ul li a:hover{
+	background: #fff;
+	color: #402DE1;
+}
+.banner_area .mobile_img img{
+    padding-top: 276px;
+    display: block;
+    margin-left: 21px;
+    margin-bottom: -149px;
+}
+/*=======================================================================================
+                4  :-Awesome Feature-:
+*=============================================================================================*/
+/*********Awesome feature part start********/
+.Awesome{
+    padding-bottom: 85px;
+    padding-top: 197px;
+}
+.Awesome .Awe_fe{
+    text-align: center;
+}
+.Awe_fe h2:after{
+    content: "";
+    background: #235bc6;
+    height: 2px;
+    width: 144px;
+    display: inline;
+    position: absolute;
+    left: 39%;
+    top: 72px;
+}
+.Awesome .Awe_fe p,
+.join_our_newpaper .newspaper p,
+.table_broder p,
+.team_broder p,
+.down_google_now .down_google p,
+.gl_con p,
+.video_con .how_it p,
+.contact_us .con_us p{
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.Awesome .Awe_fe .awe_para{
+    font-size: 20px;
+    font-family: Mon_light;
+    color: #616262;
+    padding: 60px 0px 29px 0px;
+}
+.Awesome .light{
+    border: 1px solid #dcdcdc;
+    min-height: 321px;
+    background: #f5f5f5;
+    margin-bottom: 30px;
+    padding: 0px 14px;
+}
+.light a i{
+    font-size: 50px;
+    padding: 31px 0px 3px 0px;
+	color: #616262;
+}
+.Awesome .light h3{
+    font-size: 20px;
+    font-family: Raleway-Bold;
+    color: #434343;
+    text-transform: uppercase;
+}
+.Awesome .light p{
+    font-size: 15px;
+    color: #616262;
+    font-family: Mon_light;
+    letter-spacing: 1px;
+    padding: 20px 0px 14px 0px;
+}
+
+.Awesome .light:hover{
+	background: #fff;
+    box-shadow: 0px 0px 30px rgba(81,48,226,0.25);
+    -moz-box-shadow: 0px 0px rgba(81,48,226,0.25);
+    -webkit-box-shadow: 0px 0px 30px rgba(81,48,226,0.25);
+    -ms-box-shadow: 0px 0px 30px rgba(81,48,226,0.25);
+    -o-box-shadow: 0px 0px 30px rgba(81,48,226,0.25);
+    
+}
+.Awesome .light:hover a i{
+    transform: scale(1.1);
+    transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    color: #ab3def;
+}  
+/*=======================================================================================
+                5  :-Download Contant-:
+*=============================================================================================*/
+.download_content{
+	background: url(../images/Group%201.png)no-repeat;
+    padding-top: 137px;
+    padding-bottom: 108px;
+    background-size: cover;
+    background-position: center;
+}
+.download_content .down_app{
+    position: relative;
+}
+.download_content .down_app .down, .active, .happy, .rate{
+    font-size: 36px;
+    line-height: 24px;
+    font-family: Raleway-Bold;
+    color: #fff;
+    margin-left: -59px;
+    text-transform: uppercase;
+}
+.download_content .down_app h4{
+    font-size: 36px;
+    line-height: 24px;
+    font-family: Raleway-Bold;
+    color: #fff;
+    position: absolute;
+    right: 116px;
+    top: -7px;
+    text-transform: uppercase;
+}
+.download_content .down_app h5{
+    font-size: 18px;
+    line-height: 40px;
+    font-family: Rr;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 8px 0px 0px 0px;
+}
+.download_content .down_app span{
+    position: absolute;
+    top: -16px;
+    right: -30px;
+    font-size: 44px;
+}
+/*=======================================================================================
+                6  :-About This App-:
+*=============================================================================================*/
+.about_apps{
+    padding-top: 111px;
+    padding-bottom: 53px;
+}
+.about_this h2:after{
+    content: "";
+    background: #235bc6;
+    height: 2px;
+    width: 144px;
+    display: inline;
+    position: absolute;
+    left: 37%;
+    top: 72px;
+}
+.about_apps .about_this{
+    padding-bottom: 80px;
+}
+.about_apps .ello_contant h3{
+    font-size: 35px;
+    font-family: Raleway-Bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #434343;
+    padding: 42px 0px 34px 0px;
+    line-height: 50px;
+}
+.about_apps .ello_contant p{
+    font-size: 16px;
+    font-family: Mon_light;
+    line-height: 30px;
+    color: #616262;
+}
+.ello_contant .apple{
+    position: relative;
+    padding-top: 67px;
+}
+.apple li{
+    float: left;
+    margin-right: 35px;
+}
+.apple li a .apple_logo{
+    display: inline-block;
+    font-size: 14px;
+    font-family: Mon_light;
+    color: #212121;
+    margin: 12px 1px -3px 69px;
+    text-transform: uppercase;
+}
+.apple li a .android{
+    display: inline-block;
+    margin-left: 22px;
+    font-size: 18px;
+    font-family: MB;
+    color: #212121;
+    margin: 0px 0px 0px 70px;
+    text-transform: uppercase;
+}
+.apple li a{
+    height: 90px;
+    display: inline-block;
+    border: 2px solid #af3eef;
+    width: 240px;
+    border-radius: 49px;
+    position: relative;
+}
+.apple li a i{
+    font-size: 41px;
+    color: #212121;
+    position: absolute;
+    top: 23px;
+    left: 18px;
+}
+.apple li a .an_logo{
+    position: absolute;
+    left: 18px;
+}
+.apple li a:hover{
+    background: red; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #3f2de0, #c341f2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #3f2de0, #c341f2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #3f2de0, #c341f2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #3f2de0, #c341f2); /* Standard syntax (must be last) */
+}
+.apple li a:hover .apple_logo{
+   color: #fff;
+}
+.apple li a:hover .android{
+   color: #fff;
+}
+.apple li a:hover i{
+    color: #fff;
+}
+/*=======================================================================================
+                7  :-How It Work-:
+*=============================================================================================*/
+.video_con{
+    background: #3f2de0; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #3f2de0, #c341f2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #3f2de0, #c341f2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #3f2de0, #c341f2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #3f2de0, #c341f2); /* Standard syntax (must be last) */
+}
+.modal-body iframe{
+    min-height: 400px;
+    min-width: 600px;
+}
+.modal-body button span{
+   color: #fff;
+    position: absolute;
+    right: -39px;
+    font-size: 28px;
+    top: 5px;
+	z-index: 2;
+}
+.video_con .modal-content{
+    background-color: rgba(0,0,0,.0);
+    box-shadow: 0 5px 15px rgba(0,0,0,.0);
+    border: 1px solid rgba(0,0,0,.0);
+	margin-top: 150px;
+}
+.video_con button{
+    background: none;
+    border: 0px;
+}
+.video_con button:hover{
+    background: none;
+    border: 0px;
+}
+.video_con button i{
+    color: #fff;
+    font-size: 107px;
+    padding: 100px 0px 39px 0px;
+}
+.video_con .how_it h2{
+    font-size: 45px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-family:Raleway-Bold;
+    text-transform: uppercase;
+}
+.video_con .how_it p{
+    padding-bottom: 87px;
+    padding-top: 29px;
+    font-size: 20px;
+    font-family: Mon_light;
+    color: #fff;
+}
+iframe {
+    border: none;
+}
+/*=======================================================================================
+                8  :-Gellary-:
+*=============================================================================================*/
+.gellary{
+    padding-top: 107px;
+    
+}
+.gl_con h2:after{
+    content: "";
+    position: absolute;
+    background: #235bc6;
+    height: 2px;
+    width: 144px;
+    display: inline;
+    right: 28px;
+    top: 72px;
+}
+.gl_con p{
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Mon_light;
+    color: #616262;
+    padding: 59px 0px 0px 0px;
+}
+/*********gellary dots part********/
+.gl-sliking .slick-slide img{
+    display: inline-block;
+}
+.gl-sliking .slick-slide{
+    border: 1px solid #d9dada;
+    max-width: 350px;
+    margin: 14px;
+}
+.gl-sliking ul{
+    margin-top: 50px;
+    position: absolute;
+    right: 45%;
+}
+.gl-sliking .slick-dots li{
+   float: left;
+}
+.gl-sliking .slick-dots li{
+    margin-right: 15px;
+    min-width: 16px;
+    max-height: 17px;
+    color: #fff;
+    background: #fff;
+    border: 1px solid #5030e2;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+}
+.gl-sliking .slick-dots li button{
+    opacity: 0;
+}
+.gl-sliking ul .slick-active{
+    color: #5030e2;
+    background: #5030e2;
+    border: 1px solid #5030e2;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+}
+.gl-sliking .slick-prev{
+    background: none;
+    border: none;
+    color: #fafbfb;
+}
+/*=======================================================================================
+                9  :-Download Google Now-:
+*=============================================================================================*/
+.down_google_now{
+    background: red; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #3f2de0, #c341f2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #3f2de0, #c341f2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #3f2de0, #c341f2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #3f2de0, #c341f2); /* Standard syntax (must be last) */
+    padding-top: 100px;
+    padding-bottom: 109px;
+    margin-top: 180px;
+}
+.down_google_now .down_google h2{
+    position: relative;
+    display: inline;
+    font-size: 45px;
+    color: #fff;
+    letter-spacing: 3px;
+    font-family:Raleway-Bold;
+    text-transform: uppercase;
+}
+.down_google_now .down_google:after{
+    content: "";
+    background: #fff;
+    height: 2px;
+    width: 144px;
+    display: inline;
+    top: 68px;
+    left: 43%;
+    position: absolute;
+}
+.down_google_now .down_google p{
+    padding-top: 57px;
+    padding-bottom: 90px;
+    font-size: 20px;
+    font-family: Mon_light;
+    color: #fff;
+}
+.googl_button{
+}
+.googl_button .app_stor a{
+    height: 81px;
+    display: inline-block;
+    border: 2px solid #fff;
+    width: 219px;
+    border-radius: 49px;
+    position: relative;
+}
+.app_stor .apple_logo{
+    display: inline-block;
+    font-size: 14px;
+    font-family: Mon_light;
+    color: #212121;
+    margin: 12px 1px -3px 24px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.app_stor .android{
+    display: inline-block;
+    margin-left: 22px;
+    font-size: 18px;
+    font-family: MB;
+    color: #212121;
+    margin: -3px 5px 0px 28px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.googl_button .app_stor{
+    float: left;
+}
+.googl_button .app_stor a i{
+    font-size: 41px;
+    color: #212121;
+    position: absolute;
+    left: 18px;
+    top: 18px;
+    color: #fff;
+}
+/*********app stor end*********/
+.googl_button .play_stor a{
+    height: 81px;
+    display: inline-block;
+    border: 2px solid #fff;
+    width: 219px;
+    border-radius: 49px;
+    position: relative;
+}
+.play_stor .apple_logo{
+    display: inline-block;
+    font-size: 14px;
+    font-family: Mon_light;
+    color: #212121;
+    margin: 12px 1px -3px 24px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.play_stor .android{
+    display: inline-block;
+    margin-left: 22px;
+    font-size: 18px;
+    font-family: MB;
+    color: #212121;
+    margin: -2px -1px 0px 28px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.googl_button .play_stor{
+    float: left;
+}
+.googl_button .play_stor a i{
+    font-size: 33px;
+    color: #212121;
+    position: absolute;
+    left: 18px;
+    top: 26px;
+    color: #fff;
+}
+/*********play stor end*********/
+.googl_button .app_stor1 a{
+    height: 81px;
+    display: inline-block;
+    border: 2px solid #fff;
+    width: 219px;
+    border-radius: 49px;
+    position: relative;
+    margin-left: -63px;
+}
+.app_stor1 .apple_logo{
+    display: inline-block;
+    font-size: 14px;
+    font-family: Mon_light;
+    color: #212121;
+    margin: 12px 1px -3px 24px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.app_stor1 .android{
+    display: inline-block;
+    margin-left: 22px;
+    font-size: 18px;
+    font-family: MB;
+    color: #212121;
+    margin: -3px -1px 0px 28px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.googl_button .app_stor1 a i{
+    font-size: 41px;
+    color: #212121;
+    position: absolute;
+    left: 18px;
+    top: 18px;
+    color: #fff;
+}
+.googl_button .app_stor a:hover{
+    background: #fff;
+    color: #b23ef0;
+}
+.googl_button .app_stor a:hover i{
+    color: #b23ef0;
+}
+.googl_button .app_stor a:hover .android{
+    color: #b23ef0;
+}
+.googl_button .app_stor a:hover .apple_logo{
+    color: #b23ef0;
+}
+/***** css for app store*/
+.googl_button .play_stor a:hover{
+    background: #fff;
+    color: #b23ef0;
+}
+.googl_button .play_stor a:hover i{
+    color: #b23ef0;
+}
+.googl_button .play_stor a:hover .android{
+    color: #b23ef0;
+}
+.googl_button .play_stor a:hover .apple_logo{
+    color: #b23ef0;
+}
+/*****same css for paly store*/
+.googl_button .app_stor1 a:hover{
+    background: #fff;
+    color: #b23ef0;
+}
+.googl_button .app_stor1 a:hover i{
+    color: #b23ef0;
+}
+.googl_button .app_stor1 a:hover .android{
+    color: #b23ef0;
+}
+.googl_button .app_stor1 a:hover .apple_logo{
+    color: #b23ef0;
+}
+/*=======================================================================================
+                10  :-Team Member-:
+*=============================================================================================*/
+.team_memberer{
+    padding-top: 107px;
+    margin-bottom: 117px;
+}
+.team_broder h2:after{
+    content: "";
+    position: absolute;
+    background: #235bc6;
+    height: 2px;
+    width: 144px;
+    display: inline;
+    left: 34%;
+    top: 72px;
+}
+.team_broder p{
+    font-size: 20px;
+    font-family: Mon_light;
+    color: #616262;
+    padding: 56px 0px 34px 0px;
+}
+.team_broder .jhon_dda p{
+    font-size: 14px;
+    font-family: Mon_light;
+    color: #434343;
+    padding: 12px 0px 38px 0px;
+}
+.team_memberer .jhon_dda{
+    border: 1px solid #e0e0e0;
+    min-height: 431px;
+    margin: 0px -6px;
+    border-radius: 4px;
+    background: #fafbfb;
+    padding: 18px 11px;
+}
+.jhon_dda .man_logo{
+    border: 1px solid #5130e2;
+    display: inline-block;
+    min-height: 146px;
+    min-width: 146px;
+	margin-top: 15px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+}
+.jhon_dda img{
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    height: 144px;
+    width: 144px;
+}
+.jhon_dda h3{
+    color: #212121;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Raleway-Bold;
+}
+.jhon_dda span{
+    font-size: 18px;
+    line-height: 28px;
+    color: #616262;
+    font-family: Raleway-Bold;
+}
+.jhon_dda .social_icon{
+    margin-left: 38px;
+    padding-bottom: 34px;
+}
+.jhon_dda .social_icon li{
+    float: left;
+}
+.jhon_dda .social_icon li a{
+    min-width: 27px;
+    display: inline-block;
+    min-height: 27px;
+    border: 1px solid #5130e2;
+    margin-right: 19px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+}
+.jhon_dda .social_icon li a i{
+    margin-top: 5px;
+    margin-left: 1px;
+}
+.jhon_dda .social_icon li a:hover{
+    background: #5130e2;
+    color: #fff;
+}
+.team_memberer .jhon_dda:hover{
+	box-shadow: 0px 0px 30px rgba(81,48,226,0.25);
+    -moz-box-shadow: 0px 0px rgba(81,48,226,0.25);
+    -webkit-box-shadow: 0px 0px 30px rgba(81,48,226,0.25);
+    -ms-box-shadow: 0px 0px 30px rgba(81,48,226,0.25);
+    -o-box-shadow: 0px 0px 30px rgba(81,48,226,0.25);
+}
+/*=======================================================================================
+                11  :-User Review-:
+*=============================================================================================*/
+.user_reviews{
+    padding-bottom: 100px;
+    padding-top: 94px;
+    background: #fafbfb;
+}
+.table_broder .user_pra{
+    margin-bottom: -83px;
+}
+.sliking .slick-slide img{
+    display: inline-block;
+}
+.sliking .slick-slide{
+    border: 1px solid #d9dada;
+    max-width: 350px;
+    margin: 24px;
+    padding-bottom: 14px;
+}
+.sliking .slick-slide:hover{
+   box-shadow: 0px 0px 30px rgba(81,48,226,0.25);
+    -moz-box-shadow: 0px 0px rgba(81,48,226,0.25);
+    -webkit-box-shadow: 0px 0px 30px rgba(81,48,226,0.25);
+    -ms-box-shadow: 0px 0px 30px rgba(81,48,226,0.25);
+    -o-box-shadow: 0px 0px 30px rgba(81,48,226,0.25);
+}
+.user_reviews .sliking{
+    padding-top: 67px
+}
+.sliking ul{
+    margin-left: 550px;
+    margin-top: 50px;
+}
+.sliking li a img{
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+   -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    min-height: 170px;
+    max-width: 170px;
+    border: 2px solid #5230e3;
+    margin-top: 31px;
+    margin-bottom: 16px;
+}
+.sliking h4{
+    font-size: 22px;
+    line-height: 28px;
+    font-family: Raleway-Bold;
+    color: #212121;
+    text-transform: uppercase;
+}
+.sliking span{
+    font-size: 20px;
+    line-height: 30px;
+    font-family: raleway_medium;
+    color: #616262;
+    text-transform: uppercase;
+}
+.sliking p{
+    font-size: 16px;
+    line-height: 28px;
+    font-family: Mon_light;
+    color: #616262;
+}
+.sliking .slick-dots li{
+   float: left;
+}
+.sliking .slick-dots li{
+    margin-right: 15px;
+    min-width: 16px;
+    max-height: 17px;
+    color: #fff;
+    background: #fff;
+    border: 1px solid #5030e2;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+}
+.sliking .slick-dots li button{
+    opacity: 0;
+}
+.sliking ul .slick-active{
+    color: #5030e2;
+    background: #5030e2;
+    border: 1px solid #5030e2;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+}
+.sliking .slick-prev{
+    background: none;
+    border: none;
+    color: #fafbfb;
+}
+/*=======================================================================================
+                12  :-Pricing Table-:
+*=============================================================================================*/
+.table_pricing{
+    padding-bottom: 88px;
+    margin-top: 106px;
+}
+.table_broder h2:after{
+    content: "";
+    position: absolute;
+    background: #235bc6;
+    height: 2px;
+    width: 144px;
+    display: inline;
+    left: 34%;
+    top: 72px;
+}
+.table_broder p{
+    font-size: 20px;    
+    font-family: Mon_light;
+    color: #434343;
+    padding: 59px 0px 14px 0px;
+}
+.table_pricing .light{
+    border: 1px solid #dcdcdc;
+    min-height: 652px;
+    background: #f5f5f5;
+    margin-bottom: 26px;
+    margin-top: 23px;
+}
+.table_pricing .light h3{
+    font-size: 40px;
+    color: #434343;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    padding: 30px 0px 61px 0px;
+    font-family:Raleway-Bold;
+    text-transform: uppercase;
+}
+.table_pricing .light h3:after{
+    position: absolute;
+    content: "";
+    background: #d4d0d0;
+    width: 140px;
+    height: 2px;
+    left: 104px;
+    top: 95px;
+}
+.table_pricing .light ul li{
+    font-size: 18px;
+    line-height: 22px;
+    font-family: MR;
+    color: #616262;
+    text-align: center;
+    padding: 11px 10px;
+}
+.table_pricing .light h4{
+    font-size: 60px;
+    line-height: 28px;
+    font-family: Raleway-Bold;
+    text-align: center;
+    letter-spacing: 6px;
+    padding: 24px;
+}
+.table_pricing .light h4 span{
+    font-size: 25px;
+    line-height: 28px;
+    font-family: Raleway-Bold;
+}
+.table_pricing .light .order{
+    font-size: 20px;
+    line-height: 28px;
+    font-family: Raleway-Bold;
+    color: #5030e2;
+    border: 1px solid #5030e2;
+    min-width: 172px;
+    min-height: 48px;
+    display: inline-block;
+    border-radius: 26px;
+    -moz-border-radius: 26px;
+    -webkit-border-radius: 26px;
+    -o-border-radius: 26px;
+    -ms-border-radius: 26px;
+    padding: 9px 35px;
+    margin-top: 53px;
+    margin-left: 84px;
+}
+.table_pricing .light:hover{
+    background: #fafbfb;
+    box-shadow: 0px 0px 30px rgba(81,48,226,0.25);
+    -moz-box-shadow: 0px 0px rgba(81,48,226,0.25);
+    -webkit-box-shadow: 0px 0px 30px rgba(81,48,226,0.25);
+    -ms-box-shadow: 0px 0px 30px rgba(81,48,226,0.25);
+    -o-box-shadow: 0px 0px 30px rgba(81,48,226,0.25);
+}
+.table_pricing .light .order:hover{
+	background: #5d37c6;
+	color: #fff;
+}
+.table_pricing .light:hover h3{
+    color: #b13ef0;
+}
+.table_pricing .light:hover h4{
+    color: #b13ef0;
+}
+.table_pricing .light:hover span{
+    color: #b13ef0; 
+}
+/*=======================================================================================
+                13  :-Join Our Newspaper-:
+*=============================================================================================*/
+/*******join our newspaper part start***********/
+.join_our_newpaper{
+    background: red; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #3f2de0, #c341f2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #3f2de0, #c341f2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #3f2de0, #c341f2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #3f2de0, #c341f2); /* Standard syntax (must be last) */
+}
+.join_our_newpaper .join_containter{
+    padding-top: 98px;
+    padding-bottom: 107px;
+}
+.join_our_newpaper .newspaper:after{
+    content: "";
+    background: #fff;
+    height: 2px;
+    width: 144px;
+    display: inline;
+    position: absolute;
+    left: 44%;
+    top: 69px;
+}
+.join_our_newpaper .newspaper h2{
+    color: #fff;
+}
+.join_our_newpaper .newspaper p{
+    font-size: 20px;
+    font-family: Mon_light;
+    color: #fff;
+    padding: 60px 0px 59px 0px;
+}
+.subscribe_button form input{
+    min-height: 84px;
+    border-radius: 57px;
+    border: 1px solid #fff;
+    display: inline;
+    width: 66%;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: Mon_light;
+    color: #9e9d9d;
+    padding-left: 33px;
+    text-transform:capitalize;
+}
+.subscribe_button form button{
+    min-width: 221px;
+    min-height: 74px;
+    border: 1px solid #b03eef;
+    border-radius: 37px;
+    margin-left: -229px;
+    background: #b03eef;
+    font-size: 22px;
+    line-height: 28px;
+    font-family: Raleway-Bold;
+    text-transform: uppercase;
+    color: #fff;
+    padding-bottom: 5px;
+}
+/*=======================================================================================
+                14  :-Contact-:
+*=============================================================================================*/
+.contact_us{
+    padding-bottom: 112px;
+    padding-top: 109px;
+}
+.contact_us .contac_margin{
+	margin-left: 27px;
+}
+.contact_us .con_us:after{
+    content: "";
+    background: #434343;
+    height: 2px;
+    width: 144px;
+    display: inline;
+    position: absolute;
+    left: 44%;
+    top: 67px;
+}
+.contact_us .con_us p{
+    font-size: 20px;
+    font-family: Mon_light;
+    color: #434343;
+    padding: 57px 0px 34px 0px;
+}
+.contact_us .coment{
+    background: #6232e5;
+    max-width: 365px;
+	max-height: 561px;
+    margin: 0px 28px 0px 0px;
+}
+.contact_us .coment h3{
+    font-size: 22px;
+    font-family: Raleway-Bold;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 18px 0px 13px 0px;
+    margin-left: 15px;
+}
+.contact_us .coment form li input{
+    width: 91%;
+    min-height: 32px;
+    margin-bottom: 20px;
+    padding: 0px 12px;
+    font-size: 15px;
+    line-height: 30px;
+    font-family: Mon_light;
+    color: #9e9d9d;
+    letter-spacing: 2px;
+	margin-left: 16px;
+}
+.contact_us .coment form li textarea{
+    width: 91%;
+    min-height: 194px;
+    padding: 0px 12px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 30px;
+    font-family: Mon_light;
+     color: #9e9d9d;
+    letter-spacing: 2px;
+    resize: none;
+	margin-left: 16px;
+}
+.contact_us .coment form li button{
+    min-width: 170px;
+    min-height: 49px;
+    padding: 0px 12px;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: MR;
+    color: #6232e5;
+	background: #fff;
+    text-transform: uppercase;
+    border-radius: 22px;
+    border: 1px solid #fff;
+    margin-top: 9px;
+    margin-bottom: 69px;
+	margin-left: 16px;
+}
+.contact_us .coment form li button:hover{
+    color: #bc4ee3;
+}
+/******coment part end******/
+.contact_us .contact{
+    background: #6232e5;
+    max-width: 365px;
+	min-height: 529px;
+    padding-bottom: 75px;
+}
+.contact_us .contact h3{
+    font-size: 22px;
+    font-family: Raleway-Bold;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 18px 0px 13px 0px;
+}
+.contact_us .contact a i{
+    color: #fff;
+    font-size: 20px;
+    padding-right: 19px;
+}
+.contact_us .contact span{
+    font-size: 19px;
+    font-family: Mon_light;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 18px 0px 13px 0px;
+}
+.contact_us .contact h4{
+    font-size: 19px;
+    line-height: 28px;
+    font-family: Mon_light;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 10px 0px 10px 0px;
+}
+/******contact part end******/
+.contact_us .share{
+    padding-top: 20px;
+}
+.contact_us .share li{
+    float: left;
+}
+.contact_us .share li a{
+    max-width: 48px;
+    min-height: 48px;
+    background: #fff;
+    display: block;
+    margin-right: 25px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.contact_us .share li a i:hover{
+    color: #bc4ee3;
+}
+.contact_us .share li a i{
+    color: #6232e5;
+    margin: 11px 13px;
+    font-size: 26px;
+}
+.contact_us .map{
+    max-width: 380px;
+	margin-left: -14px;
+}
+.contact_us .map iframe{
+	min-height: 542px;
+}
+/*=======================================================================================
+                15  :-Top To Bottom-:
+*=============================================================================================*/
+.top_to span i{
+    background: #696969;
+	color: #fff;
+    right: 26px;
+    padding: 9px;
+    cursor: pointer;
+    bottom: 28px;
+    position: fixed;
+}
+.manubar_border ul li a{
+    background: #f00; 
+}
+/*=======================================================================================
+                16  :-Footer-:
+*=============================================================================================*/
+/*******footer part start***********/
+.footer_area{
+    background: #2f2f2f;
+}
+.footer_area p{
+    font-size: 16px;
+    font-family: raleway_medium;
+    color: #fff;
+    padding-top: 37px;
+    padding-bottom: 27px;
+}
+/*=======================================================================================
+                  :-End Css-:
+*=============================================================================================*/

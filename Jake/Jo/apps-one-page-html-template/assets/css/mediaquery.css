@@ -1,0 +1,1102 @@
+
+/*=======================================================================================
+* Author        : Graph Theme
+* Template Name : Parsnal |Apps One Page HTML Template 
+* File          : Responsive css files
+* Version       : 1.0
+*============================================================================================= */
+@media(min-width:992px) and (max-width:1199px){
+    .navbar-default .navbar-nav li a{
+        padding: 39px 21px;
+    }
+    .banner_area h5{
+        padding-top: 303px;
+    }
+    .Awesome{
+        padding-top: 203px;
+        padding-bottom: 91px;
+    }
+    .Awesome .light{
+        background: #f5f5f5;
+        margin: 18px -4px;
+    }
+    .about_apps{
+        padding-top: 100px;
+        padding-bottom: 107px;
+    }
+    .about_apps .ello_contant h3{
+        font-size: 32px;
+        padding: 32px 0px 17px 0px;
+    }
+    .apple li a .apple_logo{
+        margin: 15px 1px -3px 69px;
+    }
+    .download_content .down_app h4{
+        right: 94px;
+    }
+    .apple li a{
+        width: 224px;
+    }
+    .gl-sliking ul{
+        right: 43%;
+    }
+    .googl_button .app_stor1 a{
+        margin-left: -16px;
+    }
+    .googl_button .app_stor a{
+        margin-left: -79px;
+    }
+    .down_google_now .down_google::after{
+        right: 413px;
+    }
+    .gellary{
+        padding-top: 102px;
+    }
+    .down_google_now{
+        margin-top: 179px;
+    }
+    .team_memberer{
+        padding-top: 104px;
+        margin-bottom: 106px;
+    }
+    .team_memberer .jhon_dda{
+        margin: 0px -15px;
+    }
+    .jhon_dda .social_icon{
+        margin-left: 22px;
+        padding-bottom: 38px;
+    }
+    .jhon_dda .social_icon li a{
+        margin-right: 17px;
+    }
+    .Awesome .Awe_fe p,
+    .join_our_newpaper .newspaper p,
+    .table_broder p,
+    .team_broder p,
+    .down_google_now .down_google p,
+    .gl_con p,
+    .video_con .how_it p,
+    .contact_us .con_us p{
+        font-size: 18px;
+    }
+    .Awesome .light{
+        margin: 13px -4px;
+    }
+    .Awesome .light p{
+        font-size: 16px;
+    }
+    .user_reviews .sliking{
+        padding-top: 97px;
+    }
+    .sliking ul{
+        margin-left: 48%;
+    }
+    .sliking p{
+        font-size: 15px;
+        line-height: 27px;
+    }
+    .table_broder .user_pra{
+        margin-bottom: -98px;
+    }
+    .table_pricing{
+        margin-top: 100px;
+        padding-bottom: 84px;
+    }
+    .table_broder p{
+        font-size: 18px;
+    }
+    .table_pricing .light .order{
+        margin-left: 52px;
+    }
+    .table_pricing .light h3::after{
+        left: 26%;
+    }
+    .join_our_newpaper .newspaper::after{
+        right: 43%;
+    }
+    .contact_us{
+        padding-top: 103px;
+        padding-bottom: 109px;
+    }
+    .contact_us .con_us p{
+        font-size: 19px;
+    }
+    .contact_us .con_us::after{
+        right: 43%;    
+    }
+    .contact_us .contact{
+        padding-bottom: 38px;
+    }
+    .contact_us .map iframe{
+        position: absolute;
+        top: -568px;
+        left: 328px;
+    }
+    .contact_us .coment{
+        margin: 0px 20px 0px 0px;
+        margin-left: -4px;
+    }
+    .contact_us .coment{
+        max-height: 530px;
+    }
+    .contact_us .share li a {
+         margin-right: 15px;
+    }
+    .contact_us .map iframe {
+        min-height: 530px;
+        top: -530px;
+    }
+    .contact_us .share{
+        padding-top: 3px;
+        margin-left: -10px;
+    }
+}
+/* ============== // media large ends */
+@media(max-width:991px) and (min-width:768px){
+    .navbar-default .navbar-nav li a{
+        padding: 39px 14px;
+        font-size: 12px;
+    }
+    .banner_area h1 {
+        font-size: 34px;
+    }
+    .banner_area h5 {
+        padding-top: 276px;
+        font-size: 22px;
+    }
+    .banner_area .mobile_img img{
+        margin-bottom: -68px;
+        padding-top: 199px
+    }
+    .banner_area ul li{
+        margin-right: 26px;
+    }
+    .banner_area ul li a{
+        padding: 18px 26px;
+        font-size: 14px;
+    }
+    /*********awesome part start********/
+     .Awesome{
+        padding-bottom: 95px;
+        padding-top: 170px;
+    }
+    .Awe_fe h2{
+        font-size: 30px
+    }
+    .Awe_fe h2::after{
+        right: 141px;
+        top: 67px;
+    }
+    .Awesome .Awe_fe p{
+        font-size: 15px;
+        padding: 82px 0px 37px 0px;
+    }
+    .Awesome .light{
+        min-height: 409px;
+        max-width: 334px;
+    }
+    .Awesome .light h3 {
+        font-size: 18px;
+    }
+    .Awesome .light p {
+        font-size: 13px;
+        padding: 36px 0px 37px 0px;
+    }
+
+    /*********awesome part end********/
+    /*********download content part start********/
+    .modal-body{
+        margin-top: 299px;
+    }
+    .modal-body iframe{
+        min-height: 367px;
+        min-width: 519px;
+    }
+    /*********modal end********/
+    .download_content{
+        padding-bottom: 19px;
+    }
+    .download_content .down_app{
+        padding-bottom: 90px;
+    }
+    .download_content .down_app h4{
+        font-size: 33px;
+        right: 162px;
+    }
+    .download_content .down_app h5{
+        font-size: 16px;
+    }
+    .download_content .down_app span{
+        right: 23px;
+        left: 30px;
+    }
+    /*********download content part end********/
+    /*********about this part start********/
+    .about_this h2{
+        font-size: 37px;
+    }
+    .about_this h2::after{
+        right: 141px;
+    }
+    /*********about this part end********/
+    /*********download google now part start********/
+    .down_google_now .down_google h2{
+        font-size: 37px;
+    }
+    .down_google_now .down_google::after{
+        right: 305px;
+    }
+    .down_google_now .down_google p{
+        padding-bottom: 0px;
+    }
+    .googl_button .app_stor{
+        margin-top: 122px;
+    }
+    .googl_button .app_stor a{
+        width: 199px;
+    }
+    /****app store end******/
+    .googl_button .play_stor{
+        margin-top: 122px;
+    }
+    .googl_button .play_stor a{
+        width: 199px;
+    }
+    /****play store end******/
+    .googl_button .app_stor1 a{
+        width: 199px;
+        margin-left: 14px;
+    }
+    .googl_button .app_stor1{
+        right: 18px;
+        top: 125px;
+        position: absolute;
+    }
+    .down_google_now .down_google p {
+        padding-top: 106px;
+    }
+    /*********download google now part end********/
+    /*********team member part end********/
+    .team_memberer .jhon_dda{
+        border: 1px solid #e0e0e0;
+        max-width: 306px;
+        min-height: 431px;
+        margin: 19px 25px;
+    }
+    .team_broder h2{
+        font-size: 37px;
+    }
+    .team_broder h2::after{
+        right: 95px;
+    }
+    /*********team member part end********/
+    /*********user reviw part start********/
+    .table_broder h2{
+        font-size: 37px;
+    }
+    .table_broder h2::after{
+        right: 117px;
+    }
+    .sliking ul {
+        margin-left: 325px;
+    }
+    /*********user reviw part end********/
+    .about_apps .ello_contant h3{
+        font-size: 34px;
+        padding: 42px 0px 20px 0px;
+    }
+    .about_apps{
+        padding-top: 117px;
+        padding-bottom: 109px;
+    }
+    .apple li{
+        margin-right: 17px;
+    }
+    .apple li a{
+        height: 84px;
+        width: 178px;
+    }
+    .apple li a i{
+        font-size: 37px;
+        top: 20px;
+        left: 18px;
+    }
+    .apple li a .android{
+        font-size: 17px;
+        margin: 0px 0px 0px 62px;
+    }
+    .apple li a .apple_logo{
+        font-size: 13px;
+        margin: 12px 1px -3px 60px;
+    }
+    /*********about part end********/
+    .gellary{
+        padding-top: 117px;
+    }
+    .table_pricing .light{
+        max-width: 342px;
+    }
+    /*********table pricing part end********/
+    .gl-sliking ul{
+        right: 37%;
+    }
+    /*********gellary part end********/
+    .down_google_now{
+        margin-top: 179px;
+    }
+    /*********google now part end********/
+    .team_memberer{
+        margin-bottom: 94px;
+        padding-top: 112px;
+    }
+    /*********team member part end********/
+    /*********newspaper part start********/
+    .join_our_newpaper .newspaper::after{
+        right: 318px;
+    }
+    .join_our_newpaper .newspaper p{
+        padding: 70px 0px 59px 0px;
+    }
+    /*********newspaper part end********/
+    /*********contact part start********/
+    .contact_us .con_us::after{
+        right: 311px;
+        top: 67px;
+    }
+    .contact_us .coment{
+        max-width: 344px;
+        max-height: 500px;
+    }
+    .contact_us .coment form li button{
+        margin-top: 37px;
+        font-size: 15px;
+    }
+    .contact_us .coment h3{
+        font-size: 20px;
+        margin-left: 5px;
+        letter-spacing: 1px;
+    }
+    .contact_us .coment form li input{
+        width: 93%;
+        margin-left: 8px;
+    }
+    .contact_us .coment form li textarea{
+        width: 93%;
+        margin-left: 8px;
+        margin-bottom: 11px;
+    }
+    .contact_us .contact{
+        max-width: 348px;
+        max-height: 500px;
+        padding-bottom: 80px;
+    }
+    .contact_us .contact h4{
+        font-size: 17px;
+    }
+    .contact_us .contact h3{
+        font-size: 20px;
+    }
+    .contact_us .contact span{
+        font-size: 17px;
+    }
+    .contact_us .contact a i{
+        padding-right: 28px;
+    }
+    .contact_us .contac_margin{
+        margin-left: 12px;
+    }
+    .contact_us .share {
+        padding-top: 14px;
+        margin-left: -2px;    
+    }
+    .contact_us .share li a{
+        max-width: 32px;
+        min-height: 32px;
+        margin-right: 13px;
+    }
+    .contact_us .share li a i {
+        color: #6232e5;
+        margin: 7px 9px;
+        font-size: 18px;
+    }
+    /******contact end******/
+    .contact_us .map iframe{
+        min-height: 320px;
+        min-width: 720px;
+        margin-top: 25px
+    }
+    .footer_area p {
+        font-size: 15px;
+        line-height: 0px;
+    }
+    /*********footer part end********/
+}
+/* ============== // media tab ends */
+@media(max-width:767px){
+    /*********header manu part start********/
+    .navbar-toggle{
+        margin-top: 21px;
+    }
+    .navbar-nav{
+        margin: 8px 1px 0px -115px;
+        padding-bottom: 70px !important;
+    }
+    .navbar-collapse{
+        border: none;
+        background: #2f2f2f;
+    }
+    .navbar-toggle .collapsed{
+        margin-top: 16px !important;
+    }
+    .header_manu .navbar-brand{
+        padding: 0px 21px !important;
+    }
+    .header_manu .navbar-nav li a{
+        line-height: 32px !important;
+        padding: 0px 120px;
+        font-size: 15px;
+        text-transform: capitalize;
+    }
+    .navbar-custom .navbar-brand img {
+        margin: 2px -5px;
+        transition: all linear 0.4s;
+    }
+    /*********header manu part end********/
+    /*********banner part start********/
+    .banner_area{
+        background: #3f2de0; /* For browsers that do not support gradients */    
+        background: -webkit-linear-gradient(left top, #3f2de0, #c341f2); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(bottom right, #3f2de0, #c341f2); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(bottom right, #3f2de0, #c341f2); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to bottom right, #3f2de0, #c341f2); /* Standard syntax (must be last) 
+        */
+        padding-bottom: 80px; 
+    }
+    .banner_area h1{
+        font-size: 29px;
+    }
+    .banner_area h5{
+        padding-top: 171px;
+        font-size: 20px;
+        letter-spacing: 6px;
+    }
+    .banner_area h6{
+        font-size: 28px;
+        letter-spacing: 6px;
+    }
+    .banner_area ul li{
+        margin-right: -18px;
+    }
+    .banner_area ul li a{
+        padding: 18px 18px;
+        font-size: 15px;
+        margin-right: 29px;
+    }
+    .mobile_img{
+        display: none;
+    }
+    
+    /*********banner part end********/
+    /*********Awesome feature part start********/
+    .Awesome{
+        padding-top: 53px;
+        padding-bottom: 34px;
+    }
+    .Awe_fe h2{
+        font-size: 20px;
+        line-height: 36px;
+        letter-spacing: 5px;
+    }
+    .Awe_fe h2::after{
+        left: 28%;
+        top: 48px;
+        width: 116px; 
+    }
+    .Awesome .Awe_fe .awe_para{
+        font-size: 16px;
+    }
+    .Awesome .Awe_fe p{
+        font-size: 15px;
+    }
+    /*********Awesome feature part end********/
+    /*********download content part start********/
+    .download_content{
+        padding-top: 65px;
+        padding-bottom: 32px;
+    }
+    .download_content .down_app .down, .active, .happy, .rate{
+        font-size: 33px;
+}
+    .download_content .down_app h4{
+        font-size: 33px;
+        line-height: 21px;
+        right: 44%;
+    }
+    .download_content .down_app span{
+        top: -14px;
+        right: -22px;
+        font-size: 43px;
+    }
+    .download_content .down_app h5{
+        padding: 13px 0px 15px 0px;
+    }
+    .download_content .down_app .kuint{
+        right: 122px;
+    }
+    .download_content .down_app .plusuint{
+        right: 101px;
+    }
+    /*********download content part end********/
+    /*********About this part end********/
+    .about_apps .about_this{
+        padding-bottom: 66px;
+    }
+    .about_this h2{
+        font-size: 24px;
+        letter-spacing: 3px;
+    }
+    .about_this h2::after{
+        left: 26%;
+        top: 52px;
+        width: 116px;
+    }
+    .about_apps .ello_contant h3{
+        font-size: 19px;
+        letter-spacing: 1px;
+        padding: 4px 0px 24px 0px;
+        line-height: 35px;
+    }
+    .about_apps .slideInRight{
+        text-align: center;
+    }
+    .about_apps{
+        padding-top: 58px;
+        padding-bottom: 40px;
+    }
+    .about_apps .ello_contant p {
+        font-size: 15px;
+    }
+    .ello_contant .apple{
+        padding-top: 55px;
+        margin-left: 59px;
+    }
+    .apple li{
+        margin-right: 5px;
+    }
+    .apple li a{
+        margin-left: -1px;
+        width: 138px;
+        height: 65px;
+        margin-bottom: 21px;
+    }
+    .apple li a i{
+        top: 18px;
+        left: 12px;
+        font-size: 23px;
+    }
+    .apple li a .an_logo{
+        left: 13px;
+    }
+    .apple li a .apple_logo{
+        font-size: 11px;
+        margin: 7px -1px -5px 30px;
+    }
+    .apple li a .android{
+        font-size: 12px;
+        margin: -6px 12px 0px 45px;
+    }
+    /*********About this part end********/
+    /*********how it work part start********/
+    .modal-body iframe{
+        min-height: 200px;
+        min-width: 250px;
+    }
+    .modal-body{
+        padding-top: 78px;
+        padding-left: 0px;
+    }
+    /*****modal part end***/
+    .video_con button i{
+        font-size: 68px;
+        padding: 103px 0px 39px 0px;
+    }
+    .video_con .how_it h2 {
+        font-size: 24px;
+        padding-bottom: 27px;
+        padding-top: 50px
+        }
+    .video_con .how_it p{
+        font-size: 16px;
+    }
+    /*********how it work part end********/
+    /*********gellary part start********/
+    .gellary{
+        padding-bottom: 0px;
+        padding-top: 58px;
+    }
+    .gl-sliking ul{
+        margin-left: 0px;
+        right: 31%;
+    }
+    .gl-sliking .slick-dots li{
+        margin-right: 6px;
+        min-width: 16px;
+    }
+    .gl_con h2{
+        font-size: 25px;
+    }
+    .gl_con h2::after{
+        left: 0%;
+        top: 49px;
+        width: 116px;
+    }
+    .gl_con p {
+        font-size: 15px;
+        padding: 53px 0px 0px 0px;
+    }
+    
+    /*********gellary part end********/
+    /*********google now part start********/
+    .down_google_now .down_google h2{
+        font-size: 24px;
+        letter-spacing: 4px;
+        line-height: 30px;
+    }
+    .down_google_now .down_google::after{
+        left: 28%;
+        top: 76px;
+        width: 116px;
+    }
+    .down_google_now{
+        padding-bottom: 151px;
+        padding-top: 92px;
+        margin-top: 128px;
+    }
+    .down_google_now .down_google p{
+        font-size: 15px;
+        padding-bottom: 61px;
+    }
+    .googl_button .app_stor{
+        margin-left: 59%;
+    }
+    .googl_button .app_stor a{
+        height: 70px;
+        width: 167px;
+        margin-bottom: 20px;
+    }
+    .googl_button .app_stor a i{
+        font-size: 28px;
+        top: 23px;
+    }
+    .app_stor .apple_logo{
+        font-size: 12px;
+    }
+    .app_stor .android{
+        font-size: 14px;
+        margin: -5px -1px 0px 18px;
+    }
+    /*********app store part end********/
+    .googl_button .play_stor{
+        margin-left: 61%;
+    }
+    .googl_button .play_stor a{
+        height: 70px;
+        width: 167px;
+        margin-bottom: 20px;
+    }
+    .googl_button .play_stor a i{
+        font-size: 20px;
+        top: 24px;
+    }
+    .play_stor .apple_logo{
+        font-size: 12px;
+    }
+    .play_stor .android{
+        font-size: 14px;
+        margin: -5px -1px 0px 18px;
+    }
+    /*********play store part end********/
+    .googl_button .app_stor1{
+        position: absolute;
+        bottom: -50%;
+        left: 121%;
+    }
+    .googl_button .app_stor1 a{
+        height: 70px;
+        width: 167px;
+        margin-bottom: 20px;
+    }
+    .googl_button .app_stor1 a i{
+        font-size: 28px;
+    }
+    .app_stor1 .apple_logo{
+        font-size: 12px;
+    }
+    .app_stor1 .android{
+        font-size: 14px;
+        margin: -5px -1px 0px 18px;
+    }
+    /*********google now part end********/
+    /*********team member part start********/
+    .team_memberer{
+        padding-top: 56px;
+        margin-bottom: 18px;
+    }
+    .team_broder h2{
+        font-size: 28px;
+        letter-spacing: 3px;
+    }
+    .team_broder h2::after{
+        left: 23%;
+        top: 56px;
+        width: 116px;
+    }
+    .team_memberer .jhon_dda{
+        margin: 0px 7px 44px 7px;
+    }
+    .team_memberer .jhon_dda ul{
+        margin-left: 19%;
+    }
+    .team_broder p{
+        font-size: 16px;
+        padding: 55px 0px 58px 0px;
+    }
+    .team_one p{
+        font-size: 16px;
+        padding-top: 5px;
+    }
+    /*********team member part end********/
+    /*********user review part start********/
+    .user_reviews{
+        padding-top: 55px;
+        padding-bottom: 28px;
+    }
+    .table_broder h2{
+        font-size: 24px;
+        letter-spacing: 4px;
+    }
+    .table_broder h2::after{
+        left:25%;
+        top: 52px;
+        width: 115px;
+    }
+    .sliking ul{
+        margin-left: 32%;
+        padding-bottom: 31px;
+        margin-top: 19px;
+    }
+    .sliking span, h4  {
+        font-size: 19px;
+    }
+    .sliking h4  {
+        font-size: 19px;
+    }
+    .sliking p  {
+        font-size: 15px;
+    }
+    /*********user review part end********/
+    /*********table pricing part start********/
+    .table_pricing{
+        padding-bottom: 163px;
+        margin-top: 53px;
+    }
+    .table_pricing .light{
+        margin-top: 313px;
+        margin-bottom: -278px;
+        min-height: 566px;
+    }
+    .table_broder .user_pra{
+        margin-bottom: -90px;
+    }
+    .table_broder p {
+        font-size: 15px
+    }
+    .table_pricing .light h3{
+        font-size: 29px;
+        padding: 19px 0px 41px 0px;
+        letter-spacing: 2px;
+    }
+    .table_pricing .light h3::after{
+        width: 123px;
+        height: 2px;
+        left: 28%;
+        top: 70px;
+    }
+    .table_pricing .light ul li {
+        font-size: 15px;
+    }
+    .table_pricing .light h4 {
+        font-size: 34px;
+    }
+    .table_pricing .light .order{
+        font-size: 18px;
+        min-width: 161px;
+        min-height: 48px;
+        margin-top: 31px;
+        margin-left: 23%;
+    }
+    /*********table pricing part end********/
+    /*********joni our newspaper part start********/
+    .newspaper{
+        position: relative;
+    }
+    .join_our_newpaper .join_containter{
+        margin-top: 157px;
+    }
+    .join_our_newpaper .newspaper h2{
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+    .join_our_newpaper .newspaper::after{
+        top: 50px;
+        left: 32%;
+    }
+    .join_our_newpaper .newspaper p {
+        font-size: 16px;
+        padding-top: 59px;
+    }
+    .subscribe_button form input{
+        min-height: 62px;
+        width: 100%;
+        font-size: 13px;
+        padding-left: 12px;
+    }
+    .subscribe_button form button{
+        min-width: 107px;
+        min-height: 56px;
+        font-size: 12px;
+        margin-left: -111px;
+        padding-bottom: -4px;
+		padding-top: 8px;
+    }
+    /*********joni our newspaper part end********/
+    /*********contact us part start********/
+    .contact_us{
+        padding-bottom: 57px;
+        padding-top: 60px;
+    }
+    .contact_us .con_us h2{
+        font-size: 25px;
+    }
+    .contact_us .con_us p{
+        font-size: 16px;
+        padding: 58px 0px 21px 0px;
+    }
+    .contact_us .con_us::after{
+        left: 28%;
+        top: 52px;
+        width: 116px;
+    }
+    .contact_us .coment{
+        min-height: 543px;
+        max-width: 100%;
+    }
+     .contact_us .coment h3 {
+        font-size: 20px;
+        margin-left: 16px;
+    }
+    .contact_us .coment form li button {
+        min-width: 144px;
+        min-height: 43px;
+        font-size: 13px;
+        margin-bottom: 0px;
+    }
+    .contact_us .coment form li input{
+        font-size: 13px;
+    }
+    .contact_us .coment form li textarea{
+        font-size: 13px;
+    }
+    .contact_us .coment{
+        margin-bottom: 43px;
+    }
+    /********coment end*********/
+    .contact_us .contact{
+        min-height: 541px;
+        max-width: 100%;
+    }
+    .contact_us .share li a i {
+        color: #6232e5;
+        margin: 10px 13px;
+        font-size: 20px;
+    }
+    .contact_us .share li a {
+        max-width: 37px;
+        min-height: 37px;
+        margin-right: 18px;
+    }
+    .contact_us .share li a i{
+        margin: 8px 12px;
+        font-size: 18px;
+    }
+    .contact_us .contact h3 {
+        font-size: 19px;
+    }
+    .contact_us .contact span {
+        font-size: 17px;
+    }
+    .contact_us .contact h4 {
+        font-size: 17px;
+    }
+    .contact_us .contact a i {
+        color: #fff;
+        font-size: 19px;
+        padding-right: 25px;
+    }
+    /*********contact us conact end********/
+    .contact_us .map iframe {
+        min-height: 450px;
+        min-width: 110%;
+    }
+    /*********contact us part end********/
+    .footer_area p{
+        font-size: 14px;
+        padding-top: 39px;
+        padding-bottom: 30px;
+        line-height: 0px;
+    }
+    /*********footer part end********/   
+}
+@media(max-width:420px){
+    .download_content .down_app h4{
+        right: 43%;
+    }
+    .team_memberer .jhon_dda ul{
+        margin-left: 20%;
+        padding-bottom: 30px;
+    }
+    .jhon_dda .social_icon li a{
+        margin-right: 13px;
+    }
+    .gl-sliking ul{
+        right: 24%;
+    }
+    .sliking ul{
+        margin-left: 31%;
+    }
+    .table_pricing .light .order{
+        margin-left: 19%;
+    }
+    .newspaper{
+        position: relative;
+    }
+    .join_our_newpaper .join_containter{
+        padding-top: 46px;
+        padding-bottom: 46px;
+    }
+    .join_our_newpaper .newspaper h2{
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+    .join_our_newpaper .newspaper::after{
+        top: 50px;
+        left: 30%;
+        width: 116px;
+    }
+    .join_our_newpaper .newspaper p {
+        font-size: 15px;
+        line-height: 34px;
+        padding-top: 51px;
+        padding-bottom: 22px;
+    }
+    .subscribe_button form input{
+        min-height: 62px;
+        width: 100%;
+        font-size: 13px;
+        padding-left: 12px;
+    }
+    .subscribe_button form button{
+        min-width: 107px;
+        min-height: 57px;
+        font-size: 12px;
+        margin-left: -110px;
+        padding-bottom: -4px;
+		padding-top: 4px;
+    }
+    /*********joni our newspaper part end********/
+    /*********contact us part start********/
+    .contact_us{
+        padding-bottom: 40px;
+        padding-top: 55px;
+    }
+    .contact_us .con_us h2{
+        font-size: 25px;
+    }
+    .contact_us .con_us p{
+        font-size: 15px;
+        padding: 55px 0px 24px 0px;
+    }
+    .contact_us .con_us::after{
+        right: 97px;
+        top: 50px;
+    }
+    .contact_us .coment{
+        min-height: 495px;
+        margin-bottom: 31px;
+    }
+     .contact_us .coment h3 {
+        font-size: 20px;
+        margin-left: 16px;
+    }
+    .contact_us .coment form li button {
+        min-width: 144px;
+        min-height: 43px;
+        font-size: 13px;
+        margin-bottom: 0px;
+    }
+    .contact_us .coment form li input{
+        font-size: 13px;
+    }
+    .contact_us .coment form li textarea{
+        font-size: 13px;
+    }
+    /********coment end*********/
+    .contact_us .contact{
+        min-height: 485px;
+        padding-bottom: 0px;
+    }
+    .contact_us .share li a i {
+        color: #6232e5;
+        margin: 10px 13px;
+        font-size: 20px;
+    }
+    .contact_us .share {
+        margin-left: 11px;
+    }
+    .contact_us .share li a {
+        max-width: 37px;
+        min-height: 35px;
+        margin-right: 18px;
+    }
+    .contact_us .share li a i{
+        margin: 9px 12px;
+        font-size: 18px;
+    }
+    .contact_us .contact h3 {
+        font-size: 19px;
+    }
+    .contact_us .contact span {
+        font-size: 17px;
+    }
+    .contact_us .contact h4 {
+        font-size: 17px;
+    }
+    .contact_us .contact a i {
+        color: #fff;
+        font-size: 19px;
+        padding-right: 25px;
+    }
+    /*********contact us conact end********/
+    .contact_us .map iframe {
+        min-height: 218px;
+        width: 100%;
+    }
+    /*********contact us part end********/
+    .footer_area p{
+        font-size: 14px;
+        padding-top: 39px;
+        padding-bottom: 30px;
+        line-height: 0px;
+    }
+}
+/* ============== // media mobile ends */
